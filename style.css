@@ -1,0 +1,46 @@
+span{
+    background-color: yellow;
+    font-weight: bold
+
+}
+#abc{
+    background-color: cadetblue;
+    color: black;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color:rgba(189, 124, 124, 0.414)
+}
+nav,
+footer,
+a{
+    background-color: rgb(18, 162, 162);
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    font-weight: bold;
+    overflow: hidden;
+}
+a:hover {
+    background-color: rgb(223, 211, 211);
+
+}
+#nn{
+    float: right;
+    padding: 0.5px;
+}
+/* 670 */
+@media screen and (min-width:300px) and (max-width:970px) {
+   #head{
+    text-align: center;
+   }
+   nav,footer{
+    font-size: 4px;
+   }
+   
+}
